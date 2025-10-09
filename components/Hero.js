@@ -3,10 +3,10 @@ import { FaShieldAlt, FaLightbulb, FaRocket } from 'react-icons/fa';
 
 const Hero = () => (
   <section className="bg-background">
-    <div className="container mx-auto px-4 py-32 text-center">
-      <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-foreground">Elevate Your Security & Automation</h1>
-      <p className="text-xl md:text-2xl mb-12 text-muted-foreground">Intelligent solutions for a safer, smarter world.</p>
-      <div className="grid md:grid-cols-3 gap-8 mb-12">
+    <div className="container mx-auto px-4 py-20 md:py-32 text-center">
+      <h1 className="text-4xl md:text-7xl font-extrabold mb-4 text-foreground">Elevate Your Security & Automation</h1>
+      <p className="text-lg md:text-2xl mb-12 text-muted-foreground">Intelligent solutions for a safer, smarter world.</p>
+      <div className="grid md:grid-cols-3 gap-12 mb-12">
         <div className="flex flex-col items-center">
           <FaShieldAlt className="text-5xl mb-4 text-primary" />
           <h3 className="text-2xl font-bold mb-2 text-foreground">Advanced Protection</h3>

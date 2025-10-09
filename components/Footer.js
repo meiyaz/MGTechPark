@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaWhatsapp, FaEnvelope, FaPhone, FaMapMarkerAl
 const Footer = () => (
   <footer className="bg-card text-card-foreground py-12">
     <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
             
             <div>
                 <h3 className="text-2xl font-bold mb-4">MG Tech Park</h3>
@@ -20,7 +20,7 @@ const Footer = () => (
                     </li>
                     <li className="flex items-center justify-center md:justify-start">
                         <FaPhone className="w-5 h-5 mr-3 text-primary" />
-                        <a href="tel:+9107092979999">+91 070929 79999</a>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
                     </li>
                     <li className="flex items-center justify-center md:justify-start">
                         <FaEnvelope className="w-5 h-5 mr-3 text-primary" />
@@ -38,7 +38,7 @@ const Footer = () => (
                     <a href="https://www.facebook.com/mgtechpark/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                         <FaFacebook size={28} />
                     </a>
-                    <a href="https://wa.me/917092979999" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                         <FaWhatsapp size={28} />
                     </a>
                 </div>
