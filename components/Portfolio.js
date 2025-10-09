@@ -97,7 +97,9 @@ const Portfolio = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-foreground">{project.title}</h3>
                   <p className="text-muted-foreground mb-4">{project.description}</p>
-                  <p className="text-sm font-semibold text-primary">{project.location}</p>
+                  <a href={`https://www.google.com/maps/search/?api=1&query=${project.location}`} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-primary hover:underline">
+                    {project.location}
+                  </a>
                 </div>
               </div>
             ))}

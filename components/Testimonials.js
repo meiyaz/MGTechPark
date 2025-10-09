@@ -82,7 +82,9 @@ const Testimonials = () => {
               <div key={index} className="flex-shrink-0 w-4/5 md:w-auto bg-card p-6 md:p-8 rounded-lg shadow-lg flex flex-col items-center text-center snap-center">
                 <p className="text-muted-foreground mb-6 italic">&quot;{testimonial.quote}&quot;</p>
                 <div className="font-bold text-lg text-foreground">{testimonial.name}</div>
-                <div className="text-sm text-primary">{testimonial.location}</div>
+                <a href={`https://www.google.com/maps/search/?api=1&query=${testimonial.location}`} target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:underline">
+                  {testimonial.location}
+                </a>
               </div>
             ))}
           </div>
